@@ -1,0 +1,6 @@
+#######SSH_KEY
+
+resource "aws_key_pair" "ethix_key" {
+  key_name   = "faizan-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDdXAV7Dhxh6xFP2+Hxg9wIOaozJaQlKDrvaNw4C1sBGgSPXHeqRyRQXT1X+ThLvOpxle5+8mN43m84eaIcjaAIfNHDjLtWM0YBJE39+82ef65wtiYEMCy1RDR6AgCnU8ul2GyyzVJOd5JxLtfLdV93Y420NoSc6DfMyrMouk3bIpKWeyUkWYvADqETY3+BvkW21e8YxHBv5GNKpdCd3//srmyb+apQKZp/s4E8ug6jpPjZQKPDCrDv2SI0NkEZ5Kpp+7kANxTaeCrgr0uFpJP8wvXAcFPCrk6sPg3CUCSAyl6Vr48uy3IC3c6/47I0VQQ0Q6igkcsIEuYE/Oob5L5MLZqvOkdPZIUD2KQZ/vjwXns7oXHatGeu9AFFeKAGyPuqYduQrv6+8dSigICLKaxHZglTgc2QCWnVsoieBY7BPU4IwKwY1K4wx/eiomNUXHkLBvDopgNTV38oLrMy0jH4zw1niWLu9BS+0opbyP+quwP+0DFGA/f3OUR9NDxpsg8= root@DESKTOP-DAMATKJ"
+}
